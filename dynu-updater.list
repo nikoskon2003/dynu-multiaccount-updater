@@ -1,0 +1,14 @@
+#Example update list file
+#First user
+username=user
+password=5F4DCC3B5AA765D61D8327DEB882CF99
+hostname=example.com
+hostname=otherdomain.com
+location=MyLocation
+
+#Second user
+username=testuser
+password=098F6BCD4621D373CADE4E832627B4F6
+hostname=somedomain.com
+location=Home
+location=Office
