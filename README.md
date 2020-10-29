@@ -41,9 +41,9 @@ location=Office
 - **`location`** is a valid location (also known as ***Group***) on the Dynu account
 
 As seen on the example, you can have multiple hostnames or locations per account to be updated.
-
 #### Note:
-The script reads the *list file* from top to bottom. Thus each **username** and **password** must come __before__ the hostnames/locations associated with that account.  
+The script reads the *list file* from top to bottom. Thus each **username** and **password** must come __before__ the hostnames/locations associated with that account.
+
 
 Once the *list file* is configured correctly, run again:
 ```bash
@@ -70,5 +70,5 @@ Tping `sudo crontab -e` will open the cron jobs. Adding the line
 */5 * * * * sudo /path/to/dynu-updater.sh >> /path/to/logfile.log
 ```
 to the bottom of the file will run the updater once every 5 minutes and will log the output to `logfile.log`.<br><br>
-If you wish to change the frequency, you can go to [https://crontab.guru/#*/5_*_*_*_*](crontab.guru) to help you with cron scheduling.<br>
+If you wish to change the frequency, you can go to [crontab.guru](https://crontab.guru/#*/5_*_*_*_*) to help you with cron scheduling.<br>
 It is recommended that the update interval is not lower that 5 minutes.<br>
